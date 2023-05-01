@@ -1,0 +1,2 @@
+1. The bug was that num1 and num2 were storing numbers in strings instead of integers so the resulting sum was also a string with the two numbers just side by side.
+2. I would fix it by calling the function parseInt() for num1 and num2 to convert them from strings of numbers into integers.
